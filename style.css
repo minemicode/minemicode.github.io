@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 版心 */
+.w {
+    width: 1182px;
+    margin: auto;
+}
+/* 背景 */
+ body {
+    background: url(images/head.png) no-repeat;
+} 
+/* li容器字体设置 */
+li {
+    list-style: none;
+    font: 14px -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif;
+}
+/* 链接样式 */
+a{
+    text-decoration:none;
+}
+
+/* 所有li容器 */
+.nav  li {
+    float: left;
+}
+.user li{
+    float: left;
+    padding-left: 15px;
+} 
+.kj li{
+    float: left;
+    text-align: center;
+    padding-right: 13px;
+}
+
+.choice li{
+    float: left;
+    height: 14px;
+    margin-right: 58px;
+    margin-bottom: 20px;
+}
+.tb li{
+    float: left;
+    line-height: 25px;
+    margin-bottom: 4px;
+    margin-right: 10px;
+}
+.hyh li{
+    float: left;
+    height: 123px;
+    margin-left: 6px;
+    margin-bottom: 2px;
+}
+.r1 li{
+    float: left;
+  margin:5px 10px;
+ font: 12px -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif;
+}
+.wcli :hover{
+    color: #73c9e5;
+}
+.r2 li{
+    float: left;
+    margin-right: 10px;
+}
+/* 所有a链接 */
+.nav li a{
+    display:block;
+    height:43px;
+    padding-right:10px;
+    line-height: 43px;
+    color:white;  
+}
+.user li a{
+    float: left;
+    display:block;
+    height:43px;
+    padding-right:20px;
+    line-height: 43px;
+    color:white;  
+} 
+.tg a{
+    float: right;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    background-color: #fb7299; 
+    border-radius: 2px;
+}
+.kj a,.choice a{
+    font: 14px -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif;
+    color:#222;
+}
+.kj a:hover{
+    color: #73c9e5;
+}
+.choice a:hover{
+    color: #73c9e5;
+}
+.tb a{
+    color: #222;
+}
+.wcli a{
+    float: right;
+    font: 12px -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 32px;
+    height: 32px;
+    width: 320px;
+    text-align: center;
+    color: #212121; 
+    background-color:#f4f4f4;
+}
+.r1 li a,.r2 li a{
+    color: #222;
+}
+
+.r1 li a:hover{
+    color: #73c9e5;
+}
+.r2 li a:hover{
+    color: #73c9e5;
+}
+/* 头部区域 */
+.head{
+    top:0;
+    margin: 10px auto;
+    width: 1524px;
+    height: 43px;
+}
+/* 导航栏 */
+.nav {
+    float: left;
+    margin-left: 57px;
+    height: 43px;
+}
+/* 搜索栏 */
+.search {
+    float: left;
+    width: 570px;
+    height: 35px;
+}
+/* 搜索文字 */
+.text{
+    float: left;
+    margin-left: 15px;
+    padding-left: 15px;
+    width: 430px;
+    height: 35px;
+    color: #bfbfbf;
+    font-size: 14px;
+}
+/* 搜索按钮 */
+.button {
+    float: left;
+    width: 50px;
+    height: 39px;
+    border: 0;  
+}
+/* 用户栏*/
+.user{
+    float: left;
+    padding-left: 10px;
+    width: 492px;
+    height: 43px;
+}
+/* 用户头像 */
+.user img{
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+} 
+/* 网站logo */
+.lb{
+    margin-top: -6px;
+    margin-left: 200px;
+}
+/* 头版 */
+.banner{
+    margin: 108px auto 30px;
+    height: 60px;
+     /* background-color:pink;   */
+}
+/* 快捷栏 */
+.kj{
+    float: left;
+    width: 202px;
+    height: 60px; 
+}
+.kj img{
+   width: 36px;
+   height: 36px;
+   border-radius: 50px;
+   margin:auto
+}
+/* 分割线 */
+.line{
+        width: 1px;
+        height: 46px;
+        margin: 9px 6px;
+        border-left: 1px solid #e7e7e7;
+        float: left;
+     }
+/* 选择栏 */
+.choice{
+ float: left;
+ padding-top: 6px;
+ width: 740px;
+ height: 60px;
+}
+.choice {
+    float: left;
+    color:#222;
+    text-align: center;
+}
+.choice span{       
+   display: block;                                                                                                                           
+    font-size: 10px;
+    text-align: center;
+    height: 13px;
+    margin-left: 5px;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #73c9e5; 
+    position: relative;
+    top:-15px;
+    right:-30px;
+}
+#fyt{
+    position: relative;
+   left: 42px;
+}
+/* 特别栏 */
+.tb{
+    float: left;
+    width: 200px;
+    margin: 7px auto;
+}
+.tb img{
+    float: left;
+    margin-right: 2px;
+    width: 22px;
+    height: 25px;
+}
+.tb :hover{
+ color: #73c9e5; 
+}
+/* 推荐版 */
+.rmd{
+    height: 240px;
+}
+/* 滚动栏 */
+.gd{
+    float: left;
+    width: 552px;
+    height: 240px;
+    background-color: blue;
+}
+.gd img{
+    width: 552px;
+    height: 240px;
+}
+.gd p{
+    position: relative;
+    top: -28px;
+    left: 14px;
+    color:#fff;
+    font-size: 14px; 
+    font-weight:700px;
+}
+/* 换一换 */
+.hyh img,.r2 img{
+    width: 204px;
+    height: 115px;
+}
+.hyh p{
+    position: relative;
+    bottom: 26px;
+    left: 7px;
+    color: #fff;
+    font-weight: 500;
+}
+/* 推广版 */
+.tgb{
+    margin: 40px auto;
+    height: 242px;
+    /* background: blue;  */
+}
+.r1{
+    height: 32px;
+    /* background: pink;  */
+}
+.r1 img{
+    float: left;
+    height: 32px;
+    width: 85px;
+}
+.r1 li img{
+    float: left;
+   margin-left: 10px;
+    height: 22px;
+    width: 22px;
+}
+.r2{
+    float: left;
+    height: 184px;
+    margin-top: 26px;
+    /* background: pink;  */
+}
+.r2 li h4{
+    height: 42px;
+    font-weight: normal;
+}
+.r2 li p{
+    font-size: 12px;
+    color: #999;
+}
+.r2 li p:hover{
+    color:#73c9e5;
+}
+.xh{
+    float: left;
+    width: 320px;
+    height: 185px;
+    position: relative;
+    top:26px;
+    left:6px;
+}
+/* 横板广告 */
+.hb{
+    height: 100px;
+    position: relative;
+    top:8px;
+    left: 176px;
+}
